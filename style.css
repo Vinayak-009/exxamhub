@@ -9,8 +9,9 @@
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgb(4,9,30,0.7)),url(images/uiet.jpg);
     background-position: center;
-    background-size:100%;
-    position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* position: center; */
     
 }
 
@@ -130,6 +131,14 @@ nav .fa{
         padding: 30px;
 
     }
+    .header{
+        min-height: 300px;
+        
+        
+       
+        
+    }
+    
 
 }
 
